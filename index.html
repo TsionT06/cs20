@@ -10,10 +10,17 @@
         float: left;
         margin-right: 15px;
     }
-   /* Shortening height of breaks */
-    div.para {
-  line-height: 200%;
+    /* Wrap text to right*/
+    div.pic {
+        width: 300px;
+        text-align: left;
+        line-height: 200%;
     }
+   /* Shortening height of text */
+    div.intro, div.end {
+        line-height: 200%;
+    }
+    /* Center headings */
     h1 {text-align: center;}
     h2 {text-align: center;}
    
@@ -21,7 +28,7 @@
 </head>
 <body>
 <!--Name in heading 1-->
-<div class="para">
+<div class="intro">
 <h1>Tsion T.</h1>
 <hr>
 <!--Major in heading 2-->
@@ -33,18 +40,18 @@ My IP Address is 130.64.64.34 <br>
 <br> 
 <hr>
 <!--Favorite place with text wrapped-->
+<div class="pic">
 <p>
     <img src="lillylibrary.png" alt="Lilly Library" class="image-left" 
-    width="80">
+    width="150">
     My favorite place is the Lilly library, as pictured to the left. 
     I recently started coming to this library because of how peaceful it is.
     It is not as crowded as Tisch, so I can secure a comfortable spot to study. 
 </p>
-<br> 
-<br>
+</div>
 <hr>
 <!--Link to favorite website-->
-<div class="para"> This is a link to my favorite restaurant, 
+<div class="end"> This is a link to my favorite restaurant, 
     <a href="https://www.habeshamalden.com/" target="_blank">Habesha.</a></p>
 <!--Fun fact-->
 You would not expect that I fenced in middle school.
